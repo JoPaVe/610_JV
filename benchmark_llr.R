@@ -1,4 +1,5 @@
 library("reshape2")
+source("llr_functions.R")
 data(french_fries)
 french_fries = french_fries[complete.cases(french_fries),]
 z = seq(0, 15, length.out = 100)
